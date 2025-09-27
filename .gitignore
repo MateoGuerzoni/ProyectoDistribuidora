@@ -361,3 +361,12 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Configs con secretos
+**/appsettings*.json
+**/local.settings.json
+**/secrets.json
+
+# Código que NO querés en Git (solo demo)
+**/Startup.cs
+**/Program.cs
